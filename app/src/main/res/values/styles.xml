@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="PrimaryButtonTheme">
+        <item name="android:enabled">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_size_18_sp</item>
+        <item name="android:background">@drawable/primary_button_background</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingStart">@dimen/margin_30_dp</item>
+        <item name="android:paddingEnd">@dimen/margin_30_dp</item>
+        <item name="android:fontFamily">@font/Lato-Regular</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+
+    <style name="SecondaryButtonTheme">
+        <item name="android:enabled">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_size_18_sp</item>
+        <item name="android:background">@drawable/secondary_button_background</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingStart">@dimen/margin_30_dp</item>
+        <item name="android:paddingEnd">@dimen/margin_30_dp</item>
+        <item name="android:fontFamily">@font/Lato-Regular</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <style name="TertiaryButtonTheme">
+        <item name="android:enabled">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_size_18_sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingStart">@dimen/margin_30_dp</item>
+        <item name="android:fontFamily">@font/Lato-Regular</item>
+        <item name="android:paddingEnd">@dimen/margin_30_dp</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+
+</resources>

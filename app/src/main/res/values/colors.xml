@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <!--Primary  Colors-->
+
+    <color name="prim_Red">#D30101</color>
+    <color name="prim_Red_dark">#D30B0D</color>
+    <color name="prim_Red_light">#F3A7A8</color>
+
+    <!--Secondary Colors-->
+
+    <color name="sec_pink_light">#C7127A</color>
+    <color name="sec_pink_dark">#8C0D56</color>
+    <color name="sec_blue_light">#3C84FC</color>
+    <color name="sec_blue_dark">#046BFC</color>
+    <color name="sec_seagreen">#14C4BC</color>
+    <color name="sec_cyan">#04BCCC</color>
+    <color name="sec_yellow_light">#FCBC1C</color>
+    <color name="sec_yellow_dark">#FE9A00</color>
+
+
+    <!--Tertiary Colors-->
+
+    <color name="ter_gray_1">#4D4D4D</color>
+    <color name="ter_gray_2">#606060</color>
+    <color name="ter_gray_3">#7D7B7B</color>
+    <color name="ter_gray_4">#BDBCBD</color>
+    <color name="ter_gray_5">#E0E0E0</color>
+
+</resources>
