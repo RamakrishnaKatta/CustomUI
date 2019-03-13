@@ -1,28 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center"
     android:orientation="vertical">
 
     <android.support.v7.widget.AppCompatButton
         style="@style/PrimaryButtonTheme"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="34dp"
         android:layout_gravity="center"
         android:layout_margin="@dimen/margin_30_dp"
-        android:gravity="center" />
+        android:layout_marginStart="@dimen/width_12_px"
+        android:gravity="center"
+        android:text="Action"
+        android:textColor="#4D4D4D"
+        android:textSize="20sp" />
 
-    <android.support.v7.widget.AppCompatButton
+    <Button
         style="@style/SecondaryButtonTheme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_30_dp" />
+        android:layout_margin="@dimen/margin_30_dp"
+        android:text="Action"
+        android:textColor="#F20900"
+        android:textSize="14sp" />
 
     <android.support.v7.widget.AppCompatButton
         style="@style/TertiaryButtonTheme"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Action"
+        android:textColor="#D40909"
+        android:textSize="14sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text ="+"
+        android:layout_gravity="bottom|end"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D30B0D"
         android:layout_margin="@dimen/margin_30_dp"
-        android:layout_height="wrap_content" />
+        app:srcCompat="@drawable/ic_group_add_black_24dp" />
+
+
+
 
 </LinearLayout>

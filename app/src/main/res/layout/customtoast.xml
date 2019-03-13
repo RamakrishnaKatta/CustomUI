@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/custom_toast_container"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_gravity="center"
     android:layout_margin="10dp"
+    android:layout_marginStart="@dimen/margin_30_dp"
+    android:layout_marginEnd="@dimen/margin_30_dp"
     android:background="#0EC3BB"
+    android:gravity="center"
     android:orientation="vertical"
     android:padding="5dp">
 
@@ -17,6 +21,6 @@
         android:gravity="center"
         android:text="Hello world"
         android:textAlignment="center"
-        android:textColor="@color/ter_gray_1" />
+        android:textColor="#FFFFFF" />
 
 </LinearLayout>

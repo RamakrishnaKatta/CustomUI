@@ -1,0 +1,13 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="0dp"
+    android:shape="rectangle">
+    <!--<solid android:color="@color/prim_Red_dark" />-->
+    <corners android:radius="@dimen/button_radius_25_dp" />
+
+    <gradient
+        android:angle="0"
+        android:endColor="#FFEB0202"
+        android:startColor="#FFFF5A5F"
+        android:type="linear" />
+
+</shape>

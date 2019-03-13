@@ -4,5 +4,6 @@
     <dimen name="text_size_18_sp">18sp</dimen>
     <dimen name="margin_30_dp">30dp</dimen>
     <dimen name="width_2_px">2px</dimen>
+    <dimen name="width_12_px">12px</dimen>
 
 </resources>

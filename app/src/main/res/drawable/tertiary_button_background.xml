@@ -3,25 +3,25 @@
 
 
     <!-- Focused and not pressed -->
-    <item android:drawable="@drawable/secondary_enable_button_bg"
+    <item android:drawable="@drawable/tertiary_enable_button_bg"
         android:state_enabled="true"
         android:state_focused="true"
         android:state_pressed="false" />
 
     <!-- Focused and pressed -->
-    <item android:drawable="@drawable/secondary_bt_gradient"
+    <item android:drawable="@android:color/transparent"
         android:state_enabled="true"
         android:state_focused="false"
         android:state_pressed="true" />
 
     <!-- Unfocused and pressed -->
-    <item android:drawable="@drawable/secondary_disable_button_bg"
+    <item android:drawable="@drawable/tertiary_disable_button_bg"
         android:state_enabled="false"
         android:state_focused="false"
         android:state_pressed="true" />
     <!-- Default color -->
 
-    <item android:drawable="@drawable/secondary_enable_button_bg" />
+    <item android:drawable="@drawable/tertiary_disable_button_bg" />
 
     <!--<item android:drawable="@drawable/secondary_enable_button_bg" android:state_enabled="true" />-->
     <!--<item android:drawable="@drawable/secondary_disable_button_bg" android:state_enabled="false" />-->

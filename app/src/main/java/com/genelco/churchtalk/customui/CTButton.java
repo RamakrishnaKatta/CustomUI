@@ -5,8 +5,10 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.util.AttributeSet;
+import android.widget.Button;
 
-public class CTButton extends android.support.v7.widget.AppCompatButton {
+@SuppressLint("AppCompatCustomView")
+public class CTButton extends Button {
     String label;
 
 
