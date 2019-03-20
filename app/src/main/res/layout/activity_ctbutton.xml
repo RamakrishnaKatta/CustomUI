@@ -40,12 +40,11 @@
         android:id="@+id/fab"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text ="+"
         android:layout_gravity="bottom|end"
         android:textColor="#FFFFFF"
         android:backgroundTint="#D30B0D"
         android:layout_margin="@dimen/margin_30_dp"
-        app:srcCompat="@drawable/ic_group_add_black_24dp" />
+        app:srcCompat="@drawable/ic_plus" />
 
 
 

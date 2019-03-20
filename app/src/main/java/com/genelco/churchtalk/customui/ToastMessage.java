@@ -1,11 +1,9 @@
 package com.genelco.churchtalk.customui;
 
-import android.app.Activity;
 import android.content.Context;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -59,7 +57,8 @@ public class ToastMessage  {
         TextView msgTv = layout.findViewById(R.id.custom_text);
         msgTv.setText(message);
         Toast toast = new Toast(context);
-        toast.setGravity(Gravity.FILL_HORIZONTAL | Gravity.BOTTOM, 100, 100);
+        toast.setGravity(Gravity.FILL_HORIZONTAL | Gravity.BOTTOM, 100, 10);
+        toast.setGravity(  Gravity.BOTTOM, 0, 100);
         toast.setDuration(Toast.LENGTH_LONG);
         toast.setView(layout);
         toast.setView(layout);

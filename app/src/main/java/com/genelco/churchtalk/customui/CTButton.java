@@ -18,13 +18,15 @@ public class CTButton extends Button {
 
     public CTButton(Context context, AttributeSet attrs) {
         super(context, attrs);
+        attrs.getAttributeBooleanValue("CT", "radius", false);
     }
 
     public CTButton(Context context, AttributeSet attrs, int defStyleAttr) {
 
         super(context, attrs, defStyleAttr);
-
         TypedArray array = context.obtainStyledAttributes(attrs, new int[]{R.style.PrimaryButtonTheme}, 0, 0);
+        String attr =
+                array.getString(R.style.PrimaryButtonTheme);
     }
 
     @Override

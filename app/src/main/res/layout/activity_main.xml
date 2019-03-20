@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
 
-    <android.support.v7.widget.AppCompatButton
+    <com.genelco.churchtalk.customui.CTButton
         android:id="@+id/PrimaryButton"
         style="@style/PrimaryButtonTheme"
         android:layout_width="wrap_content"
@@ -17,13 +17,13 @@
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:layout_marginStart="@dimen/width_12_px"
-
         android:gravity="center"
+
         android:text="Action"
         android:textColor="#FFFFFF"
         android:textSize="14sp" />
 
-    <android.support.v7.widget.AppCompatButton
+    <com.genelco.churchtalk.customui.CTButton
         android:id="@+id/SecondaryButton"
         style="@style/SecondaryButtonTheme"
         android:layout_width="wrap_content"
@@ -36,7 +36,7 @@
         android:textColor="@color/prim_Red_dark"
         android:textSize="14sp" />
 
-    <android.support.v7.widget.AppCompatButton
+    <com.genelco.churchtalk.customui.CTButton
         android:id="@+id/teritaryButton"
         style="@style/TertiaryButtonTheme"
         android:layout_width="wrap_content"
@@ -50,87 +50,88 @@
         android:textColor="#4D4D4D"
         android:textSize="14sp" />
 
-    <android.support.v7.widget.AppCompatButton
-        android:id="@+id/tinyPrimary"
-        style="@style/PrimaryButtonTheme"
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:text="ActionTiny"
-        android:textColor="#FFFFFF"
-        android:textSize="12sp" />
 
-    <android.support.v7.widget.AppCompatButton
+    <com.genelco.churchtalk.customui.CTButton
         style="@style/PrimaryButtonTheme"
         android:layout_width="wrap_content"
-        android:layout_height="44dp"
+        android:layout_height="40dp"
         android:layout_margin="20dp"
         android:gravity="center"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         android:text="Action"
         android:textColor="#FFFFFF"
-        android:textSize="17dp" />
-
-    <android.support.v7.widget.AppCompatButton
-        style="@style/PrimaryButtonTheme"
-        android:layout_width="200dp"
-        android:layout_height="60dp"
-        android:layout_margin="10dp"
-        android:paddingTop="15dp"
-        android:paddingBottom="15dp"
-        android:text="Action"
-        android:textColor="#FFFFFF"
-        android:textSize="22sp" />
+        android:textSize="16sp" />
 
 
-    <android.support.v7.widget.AppCompatButton
-        android:id="@+id/download_label"
-        style="@style/PrimaryButtonTheme"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:drawableStart="@drawable/ic_plus"
-        android:text="   Download"
-        android:textAlignment="center"
-        android:textSize="14sp" />
-
-    <android.support.design.widget.FloatingActionButton
+    <com.genelco.churchtalk.customui.CTFloat
         android:id="@+id/fab2"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_gravity="bottom|end"
-        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/ic_plus"
         android:visibility="invisible"
         app:backgroundTint="@color/prim_Red_dark"
         app:elevation="6dp"
-        app:pressedTranslationZ="12dp"
-        android:src="@drawable/ic_plus" />
-    <android.support.design.widget.FloatingActionButton
+        app:pressedTranslationZ="12dp" />
+
+    <com.genelco.churchtalk.customui.CTFloat
         android:id="@+id/fab1"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:background="@color/prim_Red_dark"
-        android:layout_marginBottom="30dp"
         android:layout_gravity="bottom|end"
-        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/prim_Red_dark"
+        android:src="@drawable/ic_plus"
         android:visibility="invisible"
-        app:elevation="6dp"
         app:backgroundTint="@color/prim_Red_dark"
-        app:pressedTranslationZ="12dp"
-        android:src="@drawable/ic_plus" />
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp" />
 
-    <android.support.design.widget.FloatingActionButton
+    <android.support.design.widget.TextInputLayout
+        style="@style/MyEditTextTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:drawableStart="@drawable/ic_plus"
+        android:hint="@string/app_name">
+
+        <com.genelco.churchtalk.customui.CTEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <com.genelco.churchtalk.customui.CTFloat
         android:id="@+id/fab"
         android:layout_width="56dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
         android:layout_margin="16dp"
         android:backgroundTint="@color/prim_Red_dark"
-        android:clickable="true"
         android:src="@drawable/ic_plus"
         app:fabSize="mini"
-        app:layout_anchor="@id/download_label"
         app:layout_anchorGravity="bottom|right|end" />
 
+    <com.genelco.churchtalk.customui.CTRadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.genelco.churchtalk.customui.CTRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:theme="@style/radiobutton" />
+
+
+    </com.genelco.churchtalk.customui.CTRadioGroup>
+
+    <com.genelco.churchtalk.customui.CTSpinner
+        style="@style/CtSpinnerTheme"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+    </com.genelco.churchtalk.customui.CTSpinner>
 
 </LinearLayout>
